@@ -65,7 +65,7 @@ if ticker_input:
         # AJOUT DE LA SMA 20 SUR L'ATR
         fig.add_trace(go.Scatter(
             x=df.index, y=df['ATR_SMA20'], 
-            line=dict(color='cyan', width=1, dash='dot'), name='SMA 20 (ATR)'
+            line=dict(color='blue', width=1, dash='dot'), name='SMA 20 (ATR)'
         ), row=2, col=1)
 
         # 5. Mise en forme
